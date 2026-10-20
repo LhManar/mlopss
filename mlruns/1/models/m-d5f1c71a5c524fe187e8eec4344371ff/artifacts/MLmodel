@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/bechi/Desktop/TP1/mlopss/mlruns/1/models/m-d5f1c71a5c524fe187e8eec4344371ff/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-d5f1c71a5c524fe187e8eec4344371ff
+model_size_bytes: 160814
+model_uuid: m-d5f1c71a5c524fe187e8eec4344371ff
+prompts: null
+run_id: 2d4bc004d92c43fba61ee1527ca3262d
+utc_time_created: '2026-10-20 16:34:48.471685'
